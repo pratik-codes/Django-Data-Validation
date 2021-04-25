@@ -1,4 +1,12 @@
-## Uploading and processing the Excel file in Django
+## virtual ENV 
+
+- installing `py -m pip install --user virtualenv`
+
+- creating `py -m venv env`
+
+- Activating `.\env\Scripts\activate`
+
+## Uploading and validating the Excel file in Django
 
 - Clone this repo to your system.
 
@@ -8,12 +16,7 @@
 
 - Start the python server, `python manage.py runserver`.
 
-- Go to `localhost:8000` and upload the `user_data.xls` file.
+- Go to postman `localhost:8000/upload/` in body add excel_file and type as file and upload the `Orders-With Nulls.xlsx` file.
 
-- Content will be displayed on page.
+- Content will be displayed on reponse as JSON.
 
-- Refer below article for detailed information:
-
-    https://www.pythoncircle.com/post/591/how-to-upload-and-process-the-excel-file-in-django/
-
-![alt text](https://github.com/anuragrana/excel-file-upload-django/blob/master/excel-django.png)
