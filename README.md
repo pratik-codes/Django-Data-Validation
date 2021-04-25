@@ -20,3 +20,5 @@
 
 - Content will be displayed on reponse as JSON.
 
+### Postman collection is also provided with the code for ease.
+
