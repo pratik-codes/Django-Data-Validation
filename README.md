@@ -16,7 +16,7 @@
 
 - Start the python server, `python manage.py runserver`.
 
-- Go to postman `localhost:8000/upload/` in body add excel_file and type as file and upload the `Orders-With Nulls.xlsx` file.
+- Go to postman `localhost:8000/upload/` in body add field name as excel_file and change the type to file and upload the `Orders-With Nulls.xlsx` file.
 
 - Content will be displayed on reponse as JSON.
 
