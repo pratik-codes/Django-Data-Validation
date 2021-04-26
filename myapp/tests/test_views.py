@@ -23,9 +23,9 @@ class TestViews:
         """
             This is to test the file upload views inside our app.
         """
-        path = reverse('')
+        path = reverse('upload/')
         #creating request
         request = RequestFactory().post(path)
         # testing the reponse if it comes out to be 200 
-        response = index(request)
+        response = upload(request)
         assert response.status_code == 200
