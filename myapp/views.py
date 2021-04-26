@@ -22,6 +22,10 @@ def upload(request):
     if "POST" == request.method:
         excel_file = request.FILES["excel_file"]
 
+        #check if the file is not uploaded
+        if excel_file is None:
+            return HttpResponse('File not uploaded')
+
         # importing file using pandas excel for xlsx file 
         df = pd.read_excel(excel_file)
 

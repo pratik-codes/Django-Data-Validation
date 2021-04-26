@@ -7,13 +7,21 @@ from myapp.views import index, upload
 
 class TestUrls(SimpleTestCase):
 
+    """
+        This is to test the all URLs inside our app.
+    """
+
     def test_index_url_resolve(self):
+        """
+        This is to test the homepage URL
+        """
         url = reverse('index')
-        print(url)
         self.assertEqual(resolve(url).func, index)
 
 
     def test_fileUplaod_url_resolve(self):
+        """
+        This is to test the upload URL
+        """
         url = reverse('upload')
-        print(url)
         self.assertEqual(resolve(url).func, upload)
