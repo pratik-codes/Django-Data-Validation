@@ -10,7 +10,7 @@
 
 - Activating `.\env\Scripts\activate`
 
-## Uploading and validating the Excel file in Django
+## Uploading and validating the Excel file in Django through Postman
 
 - Clone this repo to your system.
 
