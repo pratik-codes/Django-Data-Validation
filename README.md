@@ -33,5 +33,4 @@
 - Content will be displayed on reponse as JSON.
 
 ### Postman collection is also provided with the code for ease.
-![working](https://github.com/pratik-codes/Django-Data-Validation/blob/master/postman.gif)
 
