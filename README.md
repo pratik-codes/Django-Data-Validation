@@ -1,7 +1,6 @@
 ## Project Purpose - 
 - This is a Data Validation project which automates the process of validating a excel file and logs the error and problems very precisely on what the error is and at what place the error has occured.
 - The excel file is imported and validated with a very well know library from python know as Pandas which is very well know for data wrangling, transformation and analysis.
--
 
 ## virtual ENV 
 
