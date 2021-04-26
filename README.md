@@ -3,7 +3,7 @@
 - The excel file is imported and validated with a very well know library from python know as Pandas which is very well know for data wrangling, transformation and analysis.
 
 ## Project Setup
-- Clone the project ` git clone HTTPurl`
+- Clone the project ` git clone Https url`
 
 - cd into the dir `cd Django-Data-Validation`
 
